@@ -1,6 +1,6 @@
 #!/bin/bash
 chmod u+x *
-git add .
+git add --chmod+=x *
 echo "commit message"
 read msg
 git commit -m $msg

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Displays protocol statistics and current TCP/IP network connections.
+netstat -lp

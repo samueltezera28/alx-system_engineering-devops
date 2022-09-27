@@ -9,6 +9,5 @@ JustIn 0x0B. SSH
 #The advantage of using #!/usr/bin/env bash instead of /bin/bash
 A
 B
-C
 
 

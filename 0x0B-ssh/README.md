@@ -1,4 +1,4 @@
-In 0x0B. SSH
+JustIn 0x0B. SSH
 
 #General
 #What is a server
@@ -12,4 +12,4 @@ B
 C
 D
 E
-F
+

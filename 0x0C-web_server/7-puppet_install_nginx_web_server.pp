@@ -11,7 +11,7 @@ file_line { 'aaaaa':
 }
 
 file { '/var/www/html/index.html':
-  content => '301 Moved Permanently',
+  content => 'Hello World!',
 }
 
 service { 'nginx':

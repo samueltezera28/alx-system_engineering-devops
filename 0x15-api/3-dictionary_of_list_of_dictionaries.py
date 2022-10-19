@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 '''
-This program write user data
+This program write users data
 to json file
 '''
 

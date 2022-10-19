@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 '''
 This program displays number of completed
-tasks for a given userId
+task for a given userId
 '''
 
 import requests

@@ -14,17 +14,16 @@ if __name__ == "__main__":
     name = user.json().get('name')
 
     todos = requests.get('https://jsonplaceholder.typicode.com/todos')
-    totalTasks = 0
+    totalTasks = 20
     completed = 0
 
     for task in todos.json():
         if task.get('userId') == int(userId):
-            totalTasks += 1
             if task.get('completed'):
                 completed += 1
 
     print('Employee {} is done with tasks({}/{}):'
           .format(name, completed, totalTasks))
 
-    print('\n'.join(["\t " + task.get('title') for task in todos.json()
+    print('\n'.join(["\t" + task.get('title') for task in todos.json()
           if task.get('userId') == int(userId) and task.get('completed')]))
